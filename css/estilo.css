@@ -1,0 +1,568 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #333333;   
+    height: 90px;
+    position: absolute;
+}
+.nav-item{
+    color: white !important;
+    font-size: 17.51 px;
+    font-weight: bold;
+}
+.fa-search{
+    color: white !important;
+    font-size: 20px;
+}
+.fa-chevron-down{
+    font-size: x-small;
+    color: #b0b0b1;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+.search{
+background-color: #333333;
+border-style: none;
+border-bottom: 2px solid #b0b0ad;
+color: white;
+}
+.m-a{
+     margin-left: 23px;
+     color: white;
+     float: right;
+     font-size: 12px;
+     margin-top: 12px;
+ }
+.welcome {
+    font-size: 12px;
+    margin-top: 12px;
+}
+ h6,p{
+    color: white;
+ }
+.logo{
+ margin-right: 75px;
+ width: 228px;
+ height: 51;
+}
+.cabecalho {
+    margin-top: -10px;
+    height: 50px;
+}
+.link{
+    padding: 0 !important; 
+}
+.fa-shopping-cart{
+    font-size: 30px;
+    color: #f8595f !important;
+    margin-right: 5px;
+}
+.form{
+    margin-right: 75px;
+}
+.value{
+    color: white !important;
+    font-size: 10px;
+}
+.img {    
+    width: 100%;
+    height: 530px;
+    margin-top: 88px;         
+}
+.img_1,
+.img_2{
+    margin-top: 53px;        
+    height: 312px;        
+    width: 577px;
+}
+.rodas, .camaro {
+    width: 556px;
+    height: 304px;
+}
+.rodas{
+    float: right;
+}
+.camaro_red,
+.camaro_v2,
+.rodas_v2 {
+    width: 364px;
+    height: 191px;
+    margin-top: 21px;
+}
+.camaro_red{
+    margin-left: -16px;   
+}
+.camaro_v2{
+    margin-left: -8px;
+}
+.rodas_v2{
+    margin-left: 2px;
+}
+.desejado{    
+    width: 100%;
+    height: 540px;
+    margin-top: 50px;    
+}
+.desejado_titulo{
+    text-align: center;
+    margin-top: 1px;
+}
+hr{
+    margin-bottom: 0;    
+}
+.bloco_0 {
+    width: 246px;
+    height: 386px;
+    background-color: #ffffff;
+}
+.bloco_1{
+    position: relative;
+}
+.bloco_new,
+.f_g {
+    font-size: 12px;    
+    height: 22px;
+    color: white;
+    padding: 2px;    
+}
+
+.bloco_new{
+    background-color: black;
+    width: 55px;
+    float: left;
+}
+.new,
+.frete {
+    padding: 3px;
+    font-family: sans-serif;
+}
+.f_g{
+    background-color: #0082a7;
+    width: 86px;    
+    float: right;
+}
+#esquerda {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.oferta {
+    float: right;
+    width: 60px;
+    background-color: #de006f;
+    color: #fffdfa;    
+    font-size: 12px;
+    text-align: center;
+}
+.promotion_icon { 
+    width: 15px; 
+}
+.bloco_img {
+    width: 246px;
+    height: 220px;
+    background-color: white;    
+    text-align: center;
+}
+.item {
+    margin-top: -28px;
+}
+
+.preco,
+.desc{
+    width: 246px;    
+    text-align: center;
+    padding: 0;
+}
+.desc_text {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.preco{
+    margin-top: 24px;
+}
+.valor_antigo {
+    margin-right: 16px;
+    color: #8e8b8b;
+}
+.valor_atual{
+    color: red;
+}
+.valor_parcela{
+    font-weight: bolder;
+}
+.box_btn{
+    text-align: center;
+    width: 246px;
+}
+.btn_comprar {
+    border-style: none;
+    border: 1px solid #009200;
+    background-color: white;
+    color: #009200;
+    width: 129px;
+    height: 33px;
+    font-weight: bolder;
+    font-size: 12px;
+    margin-top: 23px;
+}
+.bag {
+    width: 19px;
+    margin-right: 8px;
+}
+.produto{
+    margin-top: 30px;
+}
+.back{
+    height: 385px;
+    width: 100%;
+    background-color: #e4e4e4;    
+}
+.noticias_titulo{
+    text-align: center;
+    font-weight: bold;
+}
+.noticias{
+    position: relative;
+    top: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.banner {
+    width: 395px;
+    height: 220px;
+    background-color: #333333;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 78px;
+}
+.titulo_banner{
+    color: #e4e4e4;
+    margin: 0;    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+.text{
+    margin-top: 50px;
+}
+.text_r {
+    color: black;
+    font-weight: bold;
+    width: 468px;
+    font-size: 15px;
+    /*margin-left: 90px;*/
+}
+.quadro_input {
+    margin-left: -20px;
+    margin-top: 44px;
+}
+.email {
+    background-color: #e4e4e4;
+    border-style: none;
+    border-bottom: 2px solid;
+    width: 340px;
+    color: black;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-bottom: 7px;
+}
+.fa-envelope input{
+    padding-left: 40px;
+}
+.fa-envelope{
+    position: relative;
+}
+.fa-envelope {
+    position: relative;
+    left: 20px;
+}
+.btn_ok {
+    border-style: none;
+    width: 148px;
+    height: 42px;
+    background-color: #333333;
+    color: white;    
+    /*margin-left: 64px;*/
+}
+.quadro_social {
+    margin-top: 52px;
+    /*margin-left: 74px;*/
+}
+.bola{
+    
+}
+.social{
+    margin-right: 20px;
+}
+.youtube{
+    width: 38px;
+    height: 38px;
+}
+.back_1{
+    background-color: #333;
+    height: 230px;
+}
+.table,
+.table_2,
+.table_3{
+    margin-top: 37px;
+    font-size: 12px;
+}
+.table_3{
+    text-align: end;
+}
+.phone{
+    font-size: 14px;
+}
+.number{
+    font-size: 20px;
+}
+.table_2{
+text-align: center;
+}
+.ajuda{
+    list-style: none;
+    color: white;
+}
+.lista{
+    margin-top: 57px;
+}
+a{
+    color: white;
+}
+.back_2{
+    background-color: #e4e4e4;
+}
+.direitos{
+    color: #999999;
+    font-size: 12px;
+}
+.pag{
+    position: relative;
+    top: -15px;
+    font-weight: bold;
+}
+.pg, .compra {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.footer-img{
+    text-align: end;
+}
+
+
+
+
+
+@media screen and (max-width: 1200px){
+    .wdLG{
+        max-width: 95% !important;        
+    }  
+    .header{
+       max-width: 100% !important;         
+    }  
+    .rodas, .camaro {
+        width: 100%;
+        height: 276px;
+    }
+    .camaro_red, .camaro_v2, .rodas_v2 {
+        width: 100%;
+        height: 185px;
+        margin-top: 21px;
+    }
+    .banner{
+        margin-left: 0;
+    }
+    .email{
+        width: auto;
+    }
+    .text_r{
+        width: 90%;
+    }
+    .img {
+        height: 450px;
+    }
+    .navbar-brand{
+        width: 300px !important;
+        margin-right: 0rem !important;
+    }
+    .form {
+        margin-right: 30px;
+    }
+    .cabecalho {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    #navBarMenu{
+        max-width: 39.5%;
+    }
+}
+@media screen and (max-width: 991px){
+    .banner{
+        width: 100%;
+    }
+    .back .wdLG{
+        width: 100% !important;
+    }
+    .btn_ok {
+        width: 136px;
+    }
+    header {
+        height: 115px;
+        display: table;
+    }
+    #navBarMenu{
+        position: absolute;
+        margin-top: 115px;
+        background: rgb(0,0,0,0.5);
+        padding: 20px 40px;
+        border-radius: 15px;
+    }
+}
+@media screen and (max-width: 768px){
+    .navbar-brand{
+        margin: 0 auto !important;
+    }
+    .navbar-brand {
+        margin: 0 auto !important;
+        width: 236px !important;
+    }
+    .desejado{
+        display: table;
+    }
+    .bloco_0 {
+        width: 70%;
+        height: 386px;
+        background-color: #ffffff;
+        margin: 0 auto;
+        margin-bottom: 80px;
+    }
+    .bloco_img {
+        width: 190px;
+        height: 220px;
+        background-color: white;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .preco, .desc {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    .box_btn {
+        text-align: center;
+        width: 100%;
+    }
+    .back{
+        display: table;
+        padding-bottom: 20px;
+    }
+    .email {
+        width: 68%;
+    }
+    .back_1{
+        display: table;
+        padding-bottom: 20px;
+    }
+    .table, .table_2, .table_3, .quadro_social{
+        text-align: center;
+    }
+    .lista {
+        margin-top: 10px;
+    }
+    .camaro_red, .camaro_v2, .rodas_v2 {
+        width: 100%;
+        height: 130px;
+        margin-top: 21px;
+    }
+    .rodas, .camaro {
+        width: 100%;
+        height: 176px;
+    }
+    .img_1, .img_2 {
+         height: auto; 
+    }
+    .camaro_v2,
+    .camaro_red,
+    .rodas_v2 {
+        margin: 0 auto;
+        margin-top: 10px;
+    }   
+    .img_1, .img_2 ,.img_3, .img_4 , .img_5 {
+        padding: 0  5px !important; 
+    }
+    .img {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .logo {
+        width: 128px;
+    }
+    .img {
+        height: 240px;
+    }
+    .navbar-brand {
+        margin: 0 auto !important;
+        width: 126px !important;
+    }
+    header {
+        height: 100px;
+    }
+    .img_1, .img_2 {
+        margin-top: 13px;
+        width: 577px;
+    }
+    .rodas, .camaro {
+        width: 100%;
+        height: 141px;
+    }
+    .camaro_red, .camaro_v2, .rodas_v2 {
+        height: 95px;
+    }
+    .bloco_0 {
+        margin-bottom: 110px;
+        margin-top: 30px;
+    }
+    .text_r {
+        width: 100%;
+    }
+    .email {
+        width: 89%;
+    }
+    .btn_ok {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .quadro_input {
+        margin-left: 0px;
+    }
+    .footer-img {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .direitos {
+        margin-top: 20px;
+        text-align: center;
+    }
+    #navBarMenu {
+        max-width: 60.5%;
+        position: absolute;
+        margin-top: 105px;
+        background: rgb(0,0,0,0.8);
+        padding: 20px 20px;
+        border-radius: 15px;
+        width: 100%;
+    }
+}
